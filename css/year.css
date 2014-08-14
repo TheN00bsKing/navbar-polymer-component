@@ -15,6 +15,7 @@
 #container{
 
 	text-align: right;
+    z-index:-20;
 }
 
 h1{
@@ -71,8 +72,9 @@ color: #09f;
 #sidebar{
 
 position: fixed;
-margin-left: 88%;
-visibility: hidden;
+margin-left: 68em;
+display:none;
+
 }
 
 #sidebar div ul li{

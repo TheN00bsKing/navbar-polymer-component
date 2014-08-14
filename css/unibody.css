@@ -12,7 +12,8 @@ min-width: 100px;
 	padding: 0;
 	padding-top: 10px;
 	margin-right: 22%;
-	min-width: 1000px;
+    max-width:1000px;
+    min-width:1000px;
 
 
 
@@ -108,8 +109,6 @@ min-width: 100px;
     width: 920px;
 	height: 1000px;
 	position:absolute;
- 
-     z-index:15;
      top:50%;
      left:50%;
      margin:-360px 0 0 -440px;
