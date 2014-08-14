@@ -115,3 +115,8 @@ min-width: 100px;
 
 }
 
+::-webkit-scrollbar-track {
+
+    background-color: black;
+
+}
