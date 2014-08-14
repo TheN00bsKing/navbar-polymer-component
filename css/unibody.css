@@ -48,7 +48,7 @@ min-width: 100px;
 #nav ul li a {
 	text-align: center;
 	text-decoration: none;
-	height: 30px;
+	height: 60px;
 	width:200px;
 	display: block;
 	color: black ;
@@ -64,7 +64,7 @@ min-width: 100px;
 	height: 80px;
 	width: 200px;
 	background-color: white;
-	margin-top: 10px;
+	margin-top: -10px;
 
 
 
