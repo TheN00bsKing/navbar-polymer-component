@@ -37,17 +37,35 @@ padding-right: 30px;
 #sidebar div ul {
 
 	list-style-type: none;
-	margin-top: 6%;
 	text-align: right;
-	width: 85px;
+	width: 95px;
 	height: 400px;
 	background-color: white;
 	opacity: 0.7;
 	font-size: 20px;
 	box-shadow: 1px 1px 15px #818181;
-	position: fixed;
 	max-width: 10000px;
 	z-index: 15;
+	position: fixed;
+
+}
+
+#sidebar div{
+
+	width: 126px;
+	height: 400px;
+
+}
+
+#sidebar{
+	width: 85px;
+	height: 400px;
+	padding-left: 1px;
+	padding-right: 40px;
+	float: right;
+	margin-top: 5%;;
+	margin-right: 1%;
+	display: none;
 
 }
 
@@ -70,14 +88,6 @@ color: #09f;
 
 }
 
-#sidebar{
-
-position: fixed;
-margin-left: 68em;
-display:none;
-z-index: 15;
-
-}
 
 #sidebar div ul li{
 
