@@ -40,14 +40,14 @@ padding-right: 20px;
 	margin-top: 6%;
 	text-align: right;
 	width: 85px;
-	height: 240px;
+	height: 400px;
 	background-color: white;
 	opacity: 0.7;
 	font-size: 20px;
 	box-shadow: 1px 1px 15px #818181;
 	position: fixed;
 	max-width: 10000px;
-	z-index: 30;
+	z-index: 15;
 
 }
 
@@ -59,7 +59,8 @@ padding-right: 20px;
 	padding-right: 9px;
 	text-decoration: none;
 	color: black;
-	z-index: 30;
+	z-index: 15;
+    line-height:20px;
 } 
 
 
@@ -74,13 +75,15 @@ color: #09f;
 position: fixed;
 margin-left: 68em;
 display:none;
+z-index: 15;
 
 }
 
 #sidebar div ul li{
 
 margin-top: 5px;
-
+line-height: 50px;
+z-index: 15;
 }
 
 img{
