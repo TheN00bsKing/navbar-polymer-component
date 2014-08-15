@@ -1,7 +1,7 @@
 body{
 
 background-image: url('../images/stripes.png');
-min-width: 100px;
+
 
 
 }
@@ -12,10 +12,10 @@ min-width: 100px;
 	padding: 0;
 	padding-top: 10px;
 	margin-right: 22%;
-    max-width:1000px;
-    min-width:1000px;
 	margin-left: auto;
     margin-left: 8%;
+    min-width:1000px;
+    max-width:100px;
  
 
 
@@ -94,7 +94,6 @@ min-width: 100px;
 	position: fixed;
 	z-index: 20;
 	box-shadow: 2px 2px 7px #818181;
-	max-width: 100%;
 
 }
 
