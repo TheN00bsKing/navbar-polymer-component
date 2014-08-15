@@ -7,10 +7,39 @@
 <meta name="description" content="סדנאת התיאטרון של איקה זהר במרכז הבמה גני תקווה"/>
 <meta name="author" content="© BULLSEYE media INC. , Gilad Shulyatzky"/>
 <link rel="icon" href="../images/icon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	
 	<!-- style -->
 	<link href="../css/unibody.css" rel="stylesheet" />
     <link href="../css/contact.css" rel="stylesheet" />
+
+
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["name"].value;
+            if (x == null || x == "") {
+                alert("First name must be filled out");
+                return false;
+            }
+        }
+
+        function validateForm() {
+            var x = document.forms["myForm"]["mail"].value;
+            if (x == null || x == "") {
+                alert("mail must be filled out");
+                return false;
+            }
+
+            function validateForm() {
+                var x = document.forms["myForm"]["comment"].value;
+                if (x == null || x == "") {
+                    alert("comment name must be filled out");
+                    return false;
+                }
+            }
+        }
+</script>
 </head>
 <body>
 	
@@ -45,7 +74,16 @@
 		
 		
 		<div id="block1">
-			
+<form name="myForm" enctype="text/plain" method="get" action="mailto:giladshu@gmail.com" onsubmit="return validateForm()" >
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Comment:<br>
+<input type="text" name="comment" value="your comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
 			
 			
 			
