@@ -66,13 +66,15 @@ body {
 
 #wraper{
 
-	width: 101%;
+	width: 102%;
 	height: 60px;
 	background-color: white;
 	opacity: 0.7;
 	position: fixed;
 	z-index: 20;
 	box-shadow: 2px 2px 7px #818181;
+	margin-left: -5px;
+	margin-top: -5px;
 	
 
 }
@@ -86,7 +88,7 @@ body {
 	#linkm{
 	
 	margin-top: 5px;
-	padding-top: 5px;
+	padding-top: 7px;
 	
 	}
 
