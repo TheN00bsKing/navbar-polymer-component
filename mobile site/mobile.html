@@ -12,6 +12,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 <script src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+	
+	$(document).ready(function () {
+
+    $("#linkm").click(function () {
+        $("#sub").toggle();
+    });
+
+});
+	
+</script>
 <link href="mobile-index.css" rel="stylesheet" />
 </head>
 <body>
@@ -25,7 +36,7 @@
 			
 			<ul>
 			    <li> <a href="#">בית</a> <div id="linkm"><img src="../images/1408057935_menu-alt.png" style="width: 20px; height: 20px; float: right; margin-right:15px;" ></div>
-				<ul>
+				<ul id="sub">
 					<li><a href="#">מידע עלינו</a></li>
 					<li><a href="#">סדנאת התיאטרון</a></li>
 					<li><a href="#">קייטנת התיאטרון</a></li>
