@@ -62,8 +62,6 @@ body {
 	margin-right: 20%;
 
 
-
-
 }
 
 #wraper{
@@ -81,6 +79,12 @@ body {
 
 }
 
+	#navbar ul ul li a:activ{
+		
+		color: #09f;
+	
+	
+	}
 
 }
 
