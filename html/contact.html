@@ -19,26 +19,13 @@
         function validateForm() {
             var x = document.forms["myForm"]["name"].value;
             if (x == null || x == "") {
-                alert("First name must be filled out");
+                alert("אנא כתוב את כתובת המייל");
                 return false;
             }
         }
 
-        function validateForm() {
-            var x = document.forms["myForm"]["mail"].value;
-            if (x == null || x == "") {
-                alert("mail must be filled out");
-                return false;
-            }
-
-            function validateForm() {
-                var x = document.forms["myForm"]["comment"].value;
-                if (x == null || x == "") {
-                    alert("comment name must be filled out");
-                    return false;
-                }
-            }
-        }
+      
+    
 </script>
 </head>
 <body>
@@ -79,29 +66,23 @@
 		<p>.כתבו את שמכם ואת כתובת המייל שלכם ובקשתכם, והיא תענה תוך כמה דקות</p>
 <form name="myForm" enctype="text/plain" method="post" action="mailto:giladshu@gmail.com" onsubmit="return validateForm()" >
 <br>
-<input class="inputxt" type="text" name="name" > <br> 
+<p></p><input placeholder="הכנס את שמך המלא כאן"class="inputxt" type="text" name="name" > <br> 
 <br>
-<input class="inputxt" type="text" name="mail" ><br>
+<input class="inputxt" type="text" placeholder="הכנס את הדו״אל שלך כאן" name="mail"  ><br>
 <br>
-<input class="inputxt" type="text" name="comment" ><br><br>
+<textarea rows="4" cols="50" class="inputxt" type="text" placeholder="הכנס את בקשתך כאן" name="comment"></textarea><br><br> 
 <input value="שלח" class="push_button" type="submit">
 </form>	
-	   </div>
-		
-
-		
-		
-	
-	
-		
-		
-		
-		
+			
+	        <div id="dialog">
+			
+				<h5>או</h5>
+				<p><span>exmaple@mailcom</span> :שלחו מייל לכתובת</p>
+			
+			</div>
+			
+	   </diva>
 	</div>
-	
-	
-	
-	
 	
 </body>
 </html>

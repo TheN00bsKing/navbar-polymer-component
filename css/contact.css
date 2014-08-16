@@ -3,7 +3,7 @@
 
      position: relative;
      width:920px;
-     height:600px;
+     height:800px;
      top:50%;
      left:20%;
      margin:-400px 0 0 -200px;
@@ -22,22 +22,22 @@ h1{
 .push_button{
 	position:relative;
 	width:100px;
-	color:#FFF;
+	color:#e30000;
 	display:block;
 	text-decoration:none;
 	border-radius:5px;
-	border:solid 1px #D94E3B;
-	background:#cb3b27;
+	border:solid 2px #9f0000;
+	background:#fff;
 	text-align:center;
 	padding:20px 30px;
-	margin-left: 30%;
+	margin-left: 33%;
 	-webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	transition: all 0.1s;
 	
-	-webkit-box-shadow: 0px 9px 0px #84261a;
-        -moz-box-shadow: 0px 9px 0px #84261a;
-        box-shadow: 0px 9px 0px #84261a;
+	-webkit-box-shadow: 0px 9px 0px #fff;
+        -moz-box-shadow: 0px 9px 0px #fff;
+        box-shadow: 0px 9px 0px #fff;
 }
 
 
@@ -55,35 +55,47 @@ h1{
 	border-radius: 50px;
 	background-color: white;
 	color: black;
-	font-size: 20px;
-	text-align: right;
+	font-size: 23px;
+	text-align: center;
 	border: solid;
-	border-color: #cb3b27;
-		-webkit-box-shadow: 0px 3px 0px #84261a;
-        -moz-box-shadow: 0px 3px 0px #84261a;
-        box-shadow: 0px 3px 0px #84261a;
-		-webkit-transition:  0.2s;
-	-moz-transition:  0.2s;
-	transition:  0.2s;
+	border-radius: 0px;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-color: #6c6c6c;
+	opacity: 0.7;
+	color: #9f0000;
+	font-family: sans-serif, "gruppo";
+	resize: none;
+	margin-top: 20px;
 
 }
 
-.inputxt:hover{
 
-background-color: #cb3b27;	
-color: white;
-border-color: #fff;
-    -webkit-box-shadow: 0px 2px 0px #84261a;
-    -moz-box-shadow: 0px 2px 0px #84261a;
-    box-shadow: 0px 2px 0px #84261a;
 
-}
 
 form{
 
 	float: right;
-	margin-top: 50px;
+	margin-top: 40px;
+	margin-right: 32%;
 
-	margin-right: 37%;
+}
+textarea{
+
+	width: 300px;
+	
+}
+
+#dialog{
+
+margin-top: 48%;
+
+}
+
+span{
+
+text-decoration: underline;
+color: blue;
 
 }
