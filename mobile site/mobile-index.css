@@ -1,9 +1,19 @@
+body{
+
+	background-image: url("../images/spongebob_meme_nobodycares_by_bloodycoldplay-d70hxga.jpg");
+	background-repeat: repeat;
+
+}
+
+
+
 p {
 
  
 	text-align: center;
 	font-size: 22px;
 	font-style: oblique;
+	margin-top: 10%;
 
 
 }
