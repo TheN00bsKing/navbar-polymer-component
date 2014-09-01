@@ -8,91 +8,63 @@
 <meta name="author" content="© BULLSEYE media INC. , Gilad Shulyatzky"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-<link rel="icon" href="images/icon.ico" />
+<link rel="icon" href="../images/icon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-
-<script type="text/javascript">
-
-if (screen.width <= 1024) {
-document.location = "../mobile site/mobile.html";
-}
-</script>
-	
-	
-	<!-- style -->
-    <link href="css/unibody.css" rel="stylesheet" />
-    <link href="css/index.css" rel="stylesheet" />
-
-
-
+<!--css style-->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/bootstrap-theme.css">
+      
 </head>
 <body>
 
-	<div id="wraper">
-		<div id="nav">
 
-			<ul>
-			<li id="home"><div style="border: solid; border-color: #d40000; border-width:5px; border-right: none; border-left:none; border-top:none; "><a  href="index.html">דף הבית</a></div></li>
-			<li><a  id="info" href="html/information.html">מידע עלינו</a></li>
-			<li><a href="#">פעילויות</a>
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top" >
+        <div class="container">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".NavHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a  href="#" class="navbar-brand pull-left">סדנאת התיאטרון של איקה זהר</a>
+            <div class="collapse navbar-collapse NavHeaderCollapse ">
+                <ul class="nav navbar-nav pull-right">
+                
+                    <li class=""><a href="#contact" data-toggle="modal">צור קשר</a></li>
+                    <li class=""><a href="#">גלריה</a></li>
+                    <li class="dropdown">
+                    
+                    <a class="dropdown-toggle" data-toggle="dropdown">פעילויותינו</a>
+                        <ul class="dropdown-menu pull-right">
+                            <li class="pull-right"><a>סדנאת התיאטרון</a></li>
+                            <li class="pull-right"><a>קייטנת התיאטרון</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#">מידע עלינו</a></li>
+                    <li class="active"><a href="#">דף הבית</a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p>!צרו קשר</p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+        
 
-				<ul>
-				<Li><a id="year" href="html/year.html">סדנאת התיאטרון</a></Li>
-				<li><a id="summer" href="html/summer.html">קייטנת התיאטרון</a></li>
-				</ul>
-
-
-			</li>
-			<li><a id="gallery" href="html/gallery.html">גלריה</a></li>
-			<li><a id="con" href="html/contact.html">צור קשר</a></li>
-			</ul>
-
-		</div>
-	</div>
-
-
-	<div id="container">
-
-
-
-
-
-
-
-		<div id="block1">
-			<h1>עדכון מספר 1</h1>
-			<em>15/08/2014</em>
-			<p>תוכן</p>
-	</div>
-
-		<div id="block2">
-			<h1>עדכון מספר 2</h1>
-			<em>14/08/2014</em>
-			<p>תוכן</p>
-	</div>
-
-		<div id="block3">
-			<h1>עדכון מספר 3</h1>
-			<em>13/8/2014</em>
-			<p>תוכן</p>
-	</div>
+    
 
 
-
-
-
-
-
-
-	</div>
-
-
-
-
-
-
-
-
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
 </body>
 </html>
