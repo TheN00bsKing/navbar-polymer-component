@@ -4,16 +4,10 @@ body{
 
 }
 
-#facebook{
-
- 
-	transition: 0.2s;
-
-}
-
-#facebook:hover{
+#con{
 
 
-	background-image: url(../images/facebook-blue.png)
+	background-color: white;
+
 
 }
