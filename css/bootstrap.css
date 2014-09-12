@@ -6206,6 +6206,18 @@ button.close {
   }
 }
 
+.bg-white{
+
+	background-color: #fff;
+
+}
+
+body{
+
+    background-image: url(../images/stripes.png);
+
+}
+
 
 
 /*# sourceMappingURL=bootstrap.css.map */
