@@ -1,4 +1,4 @@
-TheN00bsKing.github.io
+site
 ======================
 
-a website for a company
+i working on recreate the nav-bar component
